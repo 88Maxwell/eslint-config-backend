@@ -19,6 +19,6 @@ yarn add -D eslint-config-backend eslint eslint-plugin-fetch eslint-plugin-impor
 
 ```
 {
-    "extends": "backend"
+    "extends": "backend"`
 }
 ```
