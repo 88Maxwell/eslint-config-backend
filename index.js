@@ -1,9 +1,4 @@
 module.exports = {
-    extends: [
-        './rules/base',
-        './rules/import',
-        './rules/prefer-spread',
-        './rules/more',
-        ].map(require.resolve),
+    extends: ["./rules/base"].map(require.resolve),
     rules: {},
 };
